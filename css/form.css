@@ -1,0 +1,107 @@
+.form{
+	margin:5px auto;
+	max-width:400px;
+	padding:2%;
+	border-radius:13px;
+}
+.inp_captcha{
+	width:60%;
+}
+.form input, .form textarea{
+  width: 100%;
+  min-height: 33px;
+  box-sizing: border-box;
+  margin: 2px 0 2% 0;
+  padding: 2%;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius:3px;
+  box-shadow:0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+.form input:hover, .form textarea:hover{
+  border-color:#1c7a05;
+  box-shadow:0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+.form input:focus, .form textarea:focus{
+  outline: none;
+  border-color: #1c7a05;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5);
+  transition:.2s linear;
+}
+.form [type="submit"]{
+  padding:1.5%;
+  border-radius:3px;
+  border: 1px solid rgba(0,0,0,.1);
+  box-shadow:0 0 0 1px rgba(0,0,0,.2) inset;
+  background:linear-gradient(to top, #ffe100, #FF8E00);
+  color:#B2251F;
+  font-size:115%
+}
+.form [type="submit"]:hover{
+  background:linear-gradient(to top, #FF8E00, #ffe100);
+  border: #1c7a05 1px solid;
+}
+.form [type="submit"]:focus{
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+/************************************************/
+
+.vkform{
+  margin:5px auto;
+  max-width:500px;
+  padding:2%;
+  border-radius:13px;
+  background-color: rgba(200,255,000,0.2);
+}
+
+.vkbord{border:#1c7a05 1px solid;}
+
+.vkmain{
+  min-height: 100px;
+}
+
+.vktext{
+  /*padding:3px;*/
+  background:#ffd;
+}
+
+.vktextarea{
+  width: calc(100% - 22px);
+  min-height: 60px;
+}
+.vktextarea img{height:16px; width:16px; margin: 2px;user-select: none;}
+
+.vktextbtn{
+  width: 22px;
+  min-height: 60px;
+}
+.vkbtnsmile{
+  margin: 5px 0;
+}
+.vksmilebox{
+  display:none;
+  position:absolute;
+  top:0;
+  right:24px;
+  max-width:230px;
+  min-width:200px;
+  height:150px;
+  overflow-y:auto;
+  z-index:10;
+  background:antiquewhite;
+  background:rgba(255,255,222,0.4);
+}
+.vkbtn{
+  padding: 4px 0 0;
+}
+.vkbtnsend{
+  border:#1c7a05 2px solid;
+  background:#FF8E00;;
+  background:linear-gradient(to top, #ffe100, #FF8E00);
+  border-radius:3px;
+  width: 100px;
+  height: 32px;
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.vkbtnsend:hover{background:linear-gradient(to top, #FF8E00, #ffe100)}

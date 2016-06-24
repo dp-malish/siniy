@@ -1,0 +1,72 @@
+*{margin:0;padding:0}
+img {
+    border: 0;
+    max-width: 100%}
+
+.al {text-align: left}
+
+.ac {text-align: center}
+
+.ar {text-align: right}
+
+.fl {float: left}
+.mr {margin-right: 5px}
+
+.fr {float: right}
+.ml {margin-left: 5px}
+
+.cl {clear: both}
+
+.rel {position: relative}
+
+.b {font-weight: bold}
+
+.div-centr {
+    display: inline-block;
+    overflow: hidden}
+
+.ff {width: 49%}
+
+.br {border-radius: 5px}
+
+.dwf, .dwfe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center}
+.dwfe {flex-wrap: wrap}
+.dwfc{
+    display: flex;
+    justify-content: center;
+    align-items: center}
+
+.note{font-size:70%}
+
+/* /Default */
+#up {
+    width: 85px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 7px;
+    right: 7px;
+    cursor: pointer;
+    display: none;
+    color: #333;
+    font-size: 90%}
+
+/*Video*/
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0}
+/* /Video */

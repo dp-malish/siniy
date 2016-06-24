@@ -1,0 +1,24 @@
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+    .maxw {
+        max-width: 1500px;
+    }
+
+    #m_col {
+        max-width: 1260px;
+    }
+
+    #c_col {
+        max-width: 1020px;
+    }
+}
+
+body {
+    background: #72AA2D url("../img/site/fon.jpg") no-repeat fixed top;
+}
+
+#share {
+    z-index: 333;
+    position: fixed;
+    left: 50px;
+    bottom: 50px
+}

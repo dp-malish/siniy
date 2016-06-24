@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    font: 15px Verdana, Geneva, sans-serif;
+    text-align: justify;
+    cursor: default;
+}
+
+.maxw {
+    margin: 0 auto;
+    min-width: 840px; /*+120px;*/
+    max-width: 1240px /*+40px;*/
+}
+
+#bh {
+    min-height: 15px
+}
+
+#header {
+    min-height: 100px
+}
+
+#logo {
+    max-width: 240px;
+
+    min-height: inherit
+}
+
+.h_field {
+    min-width: 240px;
+    max-width: 1260px; /*+40px;*/
+    overflow: hidden
+}
+
+#mult, #skazki {
+    width: 238px;
+
+    height: 44px;
+    margin: 0 3%;
+}
+
+#ah {
+    min-height: 13px
+}
+
+/**************************/
+/**************************/
+#wrap {
+    border-radius: 9px 9px 0 0
+}
+
+#l_col {
+    width: 240px;
+    /*overflow:hidden*/
+}
+
+#m_col {
+    /*min-width:480px;*/
+    min-width: 600px; /*+120px;*/
+    max-width: 1000px; /*+40px;*/
+    overflow: hidden
+}
+
+/**************************/
+/*  m_col_child Start */
+#c_col {
+    /*min-width:240px;*/
+    min-width: 360px; /*+120px;*/
+    overflow: hidden
+}
+
+#r_col {
+    width: 240px;
+    overflow: hidden
+}
+
+/*  m_col_child End */
+/**************************/
+/**************************/
+#bf {
+    min-height: 5px
+}
+
+#foot {
+    min-height: 45px;
+}
+
+#copy {
+    font-size: 70%;
+}
