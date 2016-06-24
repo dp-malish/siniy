@@ -1,47 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
-
 #logo{
 	width:240px;
-    height: 200px;
-	perspective: 200px;
+    height:200px;
+	perspective:200px;
+    cursor: pointer;
 }
-
-#card { /* поворачивать будем общий контейнер */
-
-    top: 0;
-
-    left: 0;
-
-    width: 100%;
-
-    height: 100%;
-
+#card{ /* поворачивать будем общий контейнер */
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
     position: absolute;
-
     transition: transform 0.5s; /* трансформации будут происходить анимированно продолжительностью 0.5 сек */
-
     transform-style: preserve-3d;   /* указываем, что дочерние элементы находятся в 3D пространстве */
 }
-#card.flip {    /* добавляя этот класс, поворачиваем контейнер на 180 градусов */
+#card.flip{    /* добавляя этот класс, поворачиваем контейнер на 180 градусов */
     transform: rotateY( 180deg );
 }
-figure {
+figure{
     width: 100%;
-
     height: 100%;
-
     position: absolute;
-	
 	display: block;
-
     backface-visibility: hidden;    /* если элемент "отвернулся" от пользователя, контент этого элемента не виден */
-
 }
-	.back {
+.back{
     /*background: #58C74F;*/transform: rotateY( 180deg ); 
-
 }
-.front {
+.fronts{
     /*background: #53B6E7;*/
 }
