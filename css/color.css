@@ -1,4 +1,4 @@
-h1,h2,h3,h4{color:#B2251F;}
+h1,h2,h3,h4,.h_ext{color:#D32427;*/}
 
 A:link{color:#5c3317;text-decoration:underline;}
 A:active{color:#5c3317}
@@ -6,8 +6,8 @@ A:visited{color:#520c0e;text-decoration:underline;}
 A:hover{color:#B2251F;text-decoration:blink;}
 
 .fon_c{
-	border:#1c7a05 2px solid;
-	border-radius:10px;
+	/*border:#1c7a05 2px solid;*/
+	border-radius:3px;
 	background:#fefee2;
 	background:rgba(254,254,226,0.8);
 }

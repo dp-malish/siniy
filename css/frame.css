@@ -6,9 +6,9 @@ html, body {
 }
 
 .maxw {
-    margin: 0 auto;
-    min-width: 840px; /*+120px;*/
-    max-width: 1240px /*+40px;*/
+    margin: 1px auto;
+    min-width: 840px;
+    max-width: 1240px
 }
 
 #bh {
@@ -31,23 +31,26 @@ html, body {
     overflow: hidden
 }
 
-#mult, #skazki {
-    width: 238px;
-
-    height: 44px;
-    margin: 0 3%;
+.top_l,.top_c,.top_r{
+	width:33%;
+	float:left;
+	padding: 0.6em 0;
 }
 
+
+@media screen and (max-width:700px){
+	.top_c{display:none;}
+	.top_l,.top_r{width:49%;}
+}
+#top-nav{
+    margin-bottom: 11px;
+}
 #ah {
     min-height: 13px
 }
 
 /**************************/
 /**************************/
-#wrap {
-    border-radius: 9px 9px 0 0
-}
-
 #l_col {
     width: 240px;
     /*overflow:hidden*/

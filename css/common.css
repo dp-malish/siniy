@@ -6,6 +6,12 @@ p,ol{margin:5px;}
 .fon,.fon_c{margin:0 0 7px 5px;}
 #l_col .fon,#l_col .fon_c{margin:0 0 7px;}
 .fon img,.fon_c img{margin-bottom:5px}
+
+
+.telkiev::before{
+	content: url(../img/site/jpg.php?img=kievstar);
+	margin-right:4px;}
+
 .colorbox{cursor: url(../img/site/colorbox/zoomin.cur),pointer !important;}
 .img_btn,.vksmilebox img{
 	margin:5px 7px;
@@ -21,13 +27,6 @@ p,ol{margin:5px;}
 .tb2_l_col{float:left;width:48.8%;margin:5px 0 0.8%}
 .tb2_r_col{float:right;width:48.8%;margin:5px 0 0.8%}
 .tb2_img{padding:5px;text-align:center}
-
-.category{display:flex;
-flex-wrap:wrap;
-justify-content:center;
-align-content:center;
-align-items:stretch;
-}.divimg{margin:5px}.divimg img{border-radius:7px;}
 
 /*Таблицы*/
 .table_def{
