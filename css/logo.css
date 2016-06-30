@@ -18,7 +18,7 @@
 #card.flip{    /* добавляя этот класс, поворачиваем контейнер на 180 градусов */
     transform: rotateY( 180deg );
 }
-figure{
+#logo figure{
     width: 100%;
     height: 100%;
     position: absolute;

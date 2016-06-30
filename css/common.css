@@ -44,60 +44,10 @@ p,ol{margin:5px;}
 /*кнопки share*/
 #share .rel{margin:15px 3px}
 
-/*video menu*/
-.img_video{border-radius:5px 5px 0 0}
 .five{margin:5px}
-.view_all{font-size:85%;margin:10px}
-.all_serii{
-	margin:15px;
-	overflow-y:scroll;
-    height:150px;
-    padding:5px;
-	border:solid 2px;
-	background:#000;
-}
-.all_serii{font-size:125%}
-.all_serii ul li{display:block;margin:4px;}
-@media screen and (min-width:240px) and (max-width:480px){
-.all_serii ul li{margin:14px 4px;}}
+
+
 #informer{margin:6px 0;display:block}
 
 .nav_link a{margin:0 3px;display:inline-block}
 @media screen and (min-width:240px) and (max-width:780px){.nav_link a{margin:25px 24px}}
-
-/*Аудио плеер*/
-.ap{position:fixed;
-	left:0;bottom:40px;
-	min-height:112px;
-	z-index:50;}
-.ap>div{height:100%}
-
-#wiev_ap{width:21px;}
-#wiev_ap>div{padding:3.2em 0;}
-
-#ap_body{min-width:213px;max-width:400px;font-size:80%;display:none}
-#ap_c{overflow:hidden;white-space:nowrap;min-height:26px;padding-top:3px}
-.ap_btn{margin:1px 2px;cursor:pointer}
-
-#applay{background-repeat:no-repeat;background-image:url(/img/site/png.php?img=ap_play);height:67px;width:67px;display:inline-block;}
-#applay:hover{background-position:-81px 0;}
-
-#appause{background-repeat:no-repeat;background-image:url(/img/site/png.php?img=ap_play);height:67px;width:67px;display:inline-block;background-position:-163px 0;display:none}
-#appause:hover{background-position:-243px 0;}
-
-#apstop{background-repeat:no-repeat;background-image:url(/img/site/png.php?img=ap_play);height:67px;width:67px;display:inline-block;background-position:-325px 0;}
-#apstop:hover{background-position:-404px 0;}
-
-#apload{margin:0 5px;width:233px;min-height:16px;border-radius:4px}
-#approgress{width:15px;height:100%;background-color:#000;z-index:3;position:absolute;border-radius:4px}
-#apcanv{z-index:4;position:absolute;}
-#apcanvas{
-	margin:1px 0 0;
-	border-style:solid; 
-    border-width:1px;
-	padding:1px;}
-#btn_ext{width:50px}
-#aptimevol{margin:0 5px}
-#apvol{margin-top:2px;padding:0}
-#apvolcanvas{background-color:#CCC;cursor:pointer}
-#rupor{background-repeat:no-repeat;background-image:url(/img/site/png.php?img=rupor);height:32px;width:36px;}

@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <title>Синий</title>
 <link rel="stylesheet" type="text/css" href="/css/default.css">
-<link rel="stylesheet" type="text/css" href="/css/frame_pc.css">
-<!--<link rel="stylesheet" type="text/css" href="/css/frame_m.css">-->
+
 <link rel="stylesheet" type="text/css" href="/css/frame.css">
 
 <link rel="stylesheet" type="text/css" href="/css/logo.css">
@@ -67,15 +66,15 @@
             <div class="top_r ac">
                 <b>Режим работы:</b>
                 <ul>
-                    <li>пн-пт: 09:00 - 18:00</li>
-                    <li>сб-вс: 09:00 - 15:00</li>
+                    <li>пн-пт: 08:00 - 20:00</li>
+                    <li>сб-вс: 08:00 - 19:00</li>
                 </ul>
             </div>
             <div class="cl"></div>
         </div>
-        <div class="h_field fon_c">
+        <div class="h_field ">
             <nav class="dwfe main_nav">
-                <span>Главная</span>
+                <span><a href="#">Главная</a></span>
                 <span>О нас</span>
                 <span>Доставка</span>
                 <span>Оплата</span>
@@ -86,32 +85,29 @@
     </header>
 </div>
 
-<div id="ah3" class="maxw rel">
-    <ul class="top-menu">
-        <li><a href="#">Контакты</a></li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Оплата</a></li>
-        <li><a href="#">Возврат</a></li>
-        <li><a href="#">Сотрудничество</a></li>
-    </ul>
+<div id="ah" class="maxw rel cl"></div>
+
+<div class="maxw rel">
+    <div id="l_col" class="fl rel"><?php echo 'Левый див';?>
+        <div class="cl"></div>
+    </div>
+    <div id="m_col" class="rel"><!--Пр кол-->
+        <div id="r_col" class="fr rel"><?php /*echo 'правый';*/ ?>
+            <div class="cl"></div>
+        </div><!--Центр кол-->
+        <div id="c_col" class="rel">
+            <main><?php echo 'main'; ?></main>
+            <div class="cl"></div>
+        </div><!--Конец Центр кола-->
+        <div class="cl"></div>
+    </div><!--end m_col-->
+    <div class="cl"></div>
 </div>
 
-<div id="ah" class="maxw rel cl"><p>Это содержимое ah </p></div>
-
-<div id="top-nav" class="maxw">
-    <nav class="main_nav dwfe">
-    <span class="h_ext">Главная</span>
-    <span>О нас</span>
-    <span>Доставка</span>
-    <span>Оплата</span>
-    <span>Контакты</span>
-    </nav>
-</div>
-<div id="ah" class="maxw rel"><p>Это содержимое ah </p></div>
 
 
-<div id="main" class="maxw">главный див</div>
-<div id="bf" class="maxw">Это содержимое bh </div>
+
+<div id="bf" class="maxw cl"></div>
 <div id="foot" class="maxw">Это содержимое foot </div>
 </body>
 </html>
