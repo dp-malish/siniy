@@ -28,6 +28,9 @@
 .main_nav span:hover a{
 	color:#B2251F;
 }
+/***************l_menu*********************/
+#l_menu img{border-radius: 13px}
+
 /*
 nav {
 	max-width: 660px;

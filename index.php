@@ -88,11 +88,16 @@
 <div id="ah" class="maxw rel cl"></div>
 
 <div class="maxw rel">
-    <div id="l_col" class="fl rel"><?php echo 'Левый див';?>
+    <div id="l_col" class="fl rel">
+        <div id="l_menu" class="dwfe">
+            <img src="/img/site/png.php?img=audi">
+            <img src="/img/site/png.php?img=bmw">
+            <img src="/img/site/png.php?img=vw">
+        </div>
         <div class="cl"></div>
     </div>
     <div id="m_col" class="rel"><!--Пр кол-->
-        <div id="r_col" class="fr rel"><?php /*echo 'правый';*/ ?>
+        <div id="r_col" class="fr rel"><?='правый';?>
             <div class="cl"></div>
         </div><!--Центр кол-->
         <div id="c_col" class="rel">
@@ -104,7 +109,7 @@
     <div class="cl"></div>
 </div>
 
-
+<div id="bf" class="maxw cl rel"></div>
 
 
 <div id="bf" class="maxw cl"></div>
