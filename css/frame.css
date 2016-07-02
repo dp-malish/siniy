@@ -9,12 +9,12 @@ body {
 }
 .maxw {
     margin: 1px auto;
-    min-width: 720px;/*840*/
+    min-width: 720px;
     max-width: 1500px
 }
 
 #bh {
-    min-height: 15px
+    min-height: 13px
 }
 
 #header {
@@ -23,6 +23,7 @@ body {
 
 #logo {
     max-width: 240px;
+    height: 100%;
 
     min-height: inherit
 }
@@ -48,22 +49,21 @@ body {
     margin-bottom: 11px;
 }
 #ah {
-    min-height: 13px
+    min-height: 18px
 }
 
 /**************************/
 /**************************/
-#l_col {
+#l_col,.l_col{
     width: 240px;
+    min-height: 1px;
     overflow:hidden
 }
-
-#m_col {
-    min-width: 480px; /*+600px;*/
-    max-width: 1260px;
-    overflow: hidden
+#m_col,.m_col{
+    min-width:480px;
+    max-width:1260px;
+    overflow:hidden
 }
-
 /**************************/
 /*  m_col_child Start */
 #c_col {

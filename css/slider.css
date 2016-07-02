@@ -1,0 +1,58 @@
+#captioned-gallery {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1020px;
+    position: relative;
+    padding: 3px;
+    margin: 0 3px;
+}
+
+.slider {
+    animation: 20s slidy3 infinite;
+    left: 0;
+    position: relative;
+    width: 400%;/*кол-во слайдов*/
+    overflow: hidden;
+}
+.slider figure {
+    display: inline-block;
+    height: inherit;
+    position: inherit;
+    width: 24.5%;/*кол-во слайдов*/
+}
+
+.slider img {
+    height: auto;
+    width: 24.5%;
+}
+@keyframes slidy3 {
+    20% { left: 0; }
+    25% { left: -100%; }
+    55% { left: -100%; }
+    60% { left: -200%; }
+    85% { left: -200%; }
+    90% { left: -300%; }
+
+
+    100%{ left: -400%; }
+}
+
+
+
+@keyframes slidy2 {
+    40% { left: 0; }
+    45% { left: -100%; }
+    95% { left: -100%; }
+    100%{ left: -200%; }
+}
+/*
+@keyframes slidy5 {
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100%{ left: -400%; }
+}*/

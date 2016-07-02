@@ -25,7 +25,7 @@
 	background:rgba(254,254,226,0.5);
 	box-shadow: 3px 3px 4px #f00;
 }
-.main_nav span:hover a{
+.main_nav a:hover{
 	color:#B2251F;
 }
 /***************l_menu*********************/
