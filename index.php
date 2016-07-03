@@ -76,7 +76,7 @@
             <nav class="dwfe main_nav">
                 <a href="/"><span>Главная</span></a>
                 <a href="#about"><span>О нас</span></a>
-                <span>Доставка</span>
+                <a href="#delivery"><span>Доставка</span></a>
                 <span>Оплата</span>
                 <a href="#contact"><span>Контакты</span></a>
             </nav>
@@ -98,20 +98,26 @@
         <div class="cl"></div>
     </div>
     <div id="m_col" class="rel">
-        <div id="r_col" class="fr rel"><?= 'right'; ?>
+        <div id="r_col" class="fr rel">
+            <div class="fon_c">
+                <h3>Поставки запчастей</h3>
+                <ul>
+                    <li>Оригинальные запчасти</li>
+                    <li>Не оригинальные запчасти</li>
+                    <li>Б/у запчасти</li>
+                </ul>
+                <br>
+            </div>
             <div class="cl"></div>
         </div><!--Центр кол-->
         <div id="c_col" class="rel">
-            <main><?= ''; ?></main>
-            <div id="captioned-gallery">
-                <figure class="slider">
-                    <img alt src="/img/site/slider/magazine.png" alt="">
-                    <img alt src="/img/site/slider/zapchasti.png" alt="">
-                    <img alt src="/img/site/slider/logistic.png" alt="">
-                    <img alt src="/img/site/slider/magazine.png" alt="">
-                </figure>
+            <div id="main_slider" class="br">
+                <img alt src="/img/site/slider/magazine.png" alt="">
+                <img alt src="/img/site/slider/zapchasti.png" alt="">
+                <img alt src="/img/site/slider/logistic.png" alt="">
+                <div></div>
             </div>
-
+            <main><?= ''; ?></main>
             <div class="cl"></div>
         </div><!--Конец Центр кола-->
         <div class="cl"></div>
@@ -119,9 +125,10 @@
     <div class="cl"></div>
 </div>
 
-<div class="maxw rel">
-
-
+<div id="delivery" class="maxw rel">
+    <div class="fon_c">
+        <h2>Доставка автозапчастей</h2>
+    </div>
 </div>
 
 <div class="maxw rel">
