@@ -10,7 +10,7 @@ body {
 .maxw {
     margin: 1px auto;
     min-width: 720px;
-    max-width: 1500px
+    max-width: 1500px;
 }
 
 #bh {
@@ -101,7 +101,7 @@ body {
     #l_col {
         width: 100%;
     }
-    #m_col {
+    #m_col,.m_col {
         min-width: 240px;
         max-width: 740px
     }
@@ -126,7 +126,7 @@ body {
     #l_col {
         width: 100%
     }
-    #m_col {
+    #m_col,.m_col {
         min-width: 240px;
         max-width: 720px
     }
@@ -152,7 +152,7 @@ body {
     #l_col {
         width: 100%
     }
-    #m_col {
+    #m_col,.m_col {
         min-width: 240px;
         max-width: 480px
     }
@@ -177,7 +177,7 @@ body {
         min-width: 240px;
         max-width: 240px
     }
-    #m_col {
+    #m_col,.m_col {
         min-width: 240px;
         max-width: 240px
     }
@@ -196,7 +196,7 @@ body {
     .maxw {
         width:100%;
     }
-    #m_col {
+    #m_col,.m_col {
         width:100%;
     }
     #c_col {

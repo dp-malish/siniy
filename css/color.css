@@ -1,11 +1,11 @@
-h1,h2,h3,h4,.h_ext{color:#D32427;*/}
+h1,h2,h3,h4,.h_ext{color:#D67C1B/*D32427;*/}
 
 A:link{color:#5c3317;text-decoration:underline;}
 A:active{color:#5c3317}
 A:visited{color:#520c0e;text-decoration:underline;}
 A:hover{color:#B2251F;text-decoration:blink;}
 
-.fon_c{
+.fon_c,.fon_ce{
 	/*border:#1c7a05 2px solid;*/
 	border-radius:3px;
 	/*background:#fefee2;*/
