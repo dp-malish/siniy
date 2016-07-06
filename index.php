@@ -173,7 +173,7 @@
 <div class="maxw space"></div>
 
 <div id="delivery" class="maxw rel">
-    <img id="plane" class="z2" src="/img/site/png.php?img=plane_">
+    <img id="plane" class="z2" src="/img/site/png.php?img=plane">
     <div class="l_col fl rel mt">
         <div class="fon_ce ac z3 rel">
             <h2>Доставка автозапчастей</h2>
@@ -196,9 +196,17 @@
 <div class="maxw space"></div>
 
 <div id="contact" class="maxw rel">
-    <div class="l_col fl rel mt">
+    <div class="l_col fl rel">
         <div class="fon_c">
-            <img src="/img/site/png.php?img=contact">
+            <h2>Контакты</h2>
+            <ul class="nav_link">
+                <li>Телефоны:</li>
+                <li><a class="telkiev" href="tel:+380975237787">+38(097) 523-77-87</a></li>
+                <li>E-mail</li>
+                <li><a href="mailto:seller@siniycap.com.ua">seller@siniycap.com.ua</a></li> 
+                <li><a href="mailto:andreysineok@ya.ru">andreysineok@ya.ru</a></li>               
+            </ul>
+            <div class="ac"><img src="/img/site/png.php?img=contact"></div>
         </div>        
     </div>
     <div class="m_col rel">
@@ -226,8 +234,8 @@
                     <input type="number" name="captcha" required placeholder="Код с картинки *" min="1" max="99999">
                 </div>
                 <input type="submit" value="отправить"></form>
-            <script
-                type="text/javascript">document.getElementById('feedback-form').addEventListener('submit', function (evt) {
+            <script type="text/javascript">
+                document.getElementById('feedback-form').addEventListener('submit',function(evt){
                     var f = this;
                     evt.preventDefault();
                     var sendurl = "name=" + f.name.value + "&mail=" + f.mail.value + "&theme=" + f.theme.value + "&sms=" + f.sms.value + "&feedback=1&captcha=" + f.captcha.value;
