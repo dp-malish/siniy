@@ -15,10 +15,12 @@
 
     <link rel="stylesheet" type="text/css" href="/css/slider.css">
 
-<link rel="stylesheet" type="text/css" href="/css/temp.css">
 
-<link rel="stylesheet" type="text/css" href="/css/ind.css">
 
+<link rel="stylesheet" type="text/css" href="/css/form.css">
+
+
+    <link rel="stylesheet" type="text/css" href="/css/temp.css">
 </head>
 
 <body class="rel">
@@ -172,29 +174,76 @@
 
 <div id="delivery" class="maxw rel">
     <img id="plane" class="z2" src="/img/site/png.php?img=plane_">
-    <div class="l_col fl rel">
+    <div class="l_col fl rel mt">
         <div class="fon_ce ac z3 rel">
             <h2>Доставка автозапчастей</h2>
-            <img src="/img/site/png.php?img=delivery">
+            <img id="delivery_box" src="/img/site/png.php?img=delivery">
         </div>
     </div>
     <div class="m_col rel mt">
         <div class="fon_c">
-
-            fdg uyi yui uyi u uyiyui uu <br> jhj<br>k jkl jkl jkl<br> jkl kj jk kj jkl jk jk k jjk kj kj kj jk lk jjk ljkk jjkl jkl jkl kjl jkl jkl kj kj kj ljk kj kj k j k kk kj kl klj kjjk jkjkjkj kjk j jkjkj kjkjjkjk
+            <h3>Доставка автозапчастей по Украине</h3>
+            <p class="h_ext">Доставка автозапчастей</p>
+            <p>Доставка Ваших заказов, находящихся на нашем складе и готовых к отгрузке осуществляется ежедневно в рабочие дни, включая субботу. Заказ доставки Вы можете оформить на сайте связавшись с нашими менеджерами.</p>
+            <p>Доставка осуществляется бесплатно.</p>
+            <p><strong>Для клиентов, зарегистрированных в городе Мариуполь</strong>, предусмотрена адресная плановая доставка, стоимость которой составляет 35 грн.</p>
+            <p><strong>Для иногородних клиентов</strong> доставка заказов осуществляется транспортными компаниями. Доставка заказов до склада транспортной компании или автовокзала, производится нашим автотранспортом, что гарантирует целостность товара на момент передачи груза перевозчику, и осуществляется бесплатно. Оплата услуг транспортной компании или автотранспорта за перевозку груза, осуществляется клиентом, при получении груза у перевозчика. По умолчанию Ваши заказы передаются перевозчикам без оформления страховки на груз. Страхование груза у перевозчика осуществляется только при согласовании с Вашим персональным менеджером. Компания «Siniy cap» не несет ответственность за сохранность груза в ходе перевозки транспортной компанией. Все претензии при получении поврежденного груза Вы вправе предъявить перевозчику.</p>
         </div>
     </div>
     <div class="cl"></div>
 </div>
 
+<div class="maxw space"></div>
 
-<div class="maxw rel">
-    <div class="l_col fl">
-
-        <p>Многостраничный текст (иначе результат не будет заметен)</p>
+<div id="contact" class="maxw rel">
+    <div class="l_col fl rel mt">
+        <div class="fon_c">
+            <img src="/img/site/png.php?img=contact">
+        </div>        
     </div>
-    <div class="m_col rel fl">
-        rgregreg
+    <div class="m_col rel">
+        <div class="fon_c">
+            <h4>Дорогие друзья!</h4>
+            <p>Нам очень приятно, если детский портал «Малыш» Вам нравиться и приносит Вам пользу. Воспользовавшись <a
+                    href="#forma-obratnoy-svyazi">формой обратной связи</a> Вы с лёгкостью обратитесь к администрации
+                сайта. Ваши письма для нас очень важны.</p>
+            <p>Если у Вас возникли вопросы по работе сайта, наша команда всегда рядом! Чтобы помочь Вам максимально
+                оперативно, нам важны все детали. Опишите суть проблемы и мы мгновенно отреагируем.</p>
+            <p>Хорошего Вам настроения!</p><br><br>
+            <p>Администратор сайта Александр Баранов</p>
+            <p>email: <a href="mailto:admin@dp-malish.com">admin@dp-malish.com</a></p><br><br><h4
+                id="forma-obratnoy-svyazi">Форма обратной связи</h4>
+            <form id="feedback-form" class="form" method="post"><p>Как к Вам обращаться:</p><input type="text"
+                                                                                                   name="name" required
+                                                                                                   placeholder="фамилия имя отчество *"
+                                                                                                   x-autocompletetype="name"
+                                                                                                   maxlength="100">
+                <p>Email для связи:</p><input type="email" name="mail" required placeholder="адрес электронной почты *" x-autocompletetype="email" maxlength="100">
+                <p>Тема сообщения:</p><input type="text" name="theme" required placeholder="Тема сообщения *" maxlength="100">
+                <p>Ваше сообщение:</p><textarea name="sms" required rows="5" maxlength="15"></textarea>
+                <p>Введите код с картинки</p>
+                <div class="dwf"><img id="imgcaptcha" class="five br" src="/img/site/captcha.php" alt="">
+                    <input type="number" name="captcha" required placeholder="Код с картинки *" min="1" max="99999">
+                </div>
+                <input type="submit" value="отправить"></form>
+            <script
+                type="text/javascript">document.getElementById('feedback-form').addEventListener('submit', function (evt) {
+                    var f = this;
+                    evt.preventDefault();
+                    var sendurl = "name=" + f.name.value + "&mail=" + f.mail.value + "&theme=" + f.theme.value + "&sms=" + f.sms.value + "&feedback=1&captcha=" + f.captcha.value;
+                    ajaxPostSend(sendurl, answerFeedback);
+                }, false);
+                function answerFeedback(arr) {
+                    alert(arr.answer);
+                    document.images["imgcaptcha"].src = '/img/site/captcha.php?id=' + Math.random();
+                    var f = document.getElementById('feedback-form');
+                    f.theme.value = '';
+                    f.sms.removeAttribute('value');
+                    f.sms.value = '';
+                    f.captcha.value = '';
+                }</script>
+            <p class="note">Примечание: поля, помеченные * звездочкой - обязательны для заполнения</p><br>
+        </div>
     </div>
     <div class="cl"></div>
 </div>

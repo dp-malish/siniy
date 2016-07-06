@@ -80,3 +80,4 @@ p,ol{margin:5px;}
 	45% {left:70%}
 	100%{left:400%}
 }
+#plane:hover{animation-play-state: paused;}

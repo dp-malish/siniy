@@ -34,7 +34,8 @@
   box-shadow:0 0 0 1px rgba(0,0,0,.2) inset;
   background:linear-gradient(to top, #ffe100, #FF8E00);
   color:#B2251F;
-  font-size:115%
+  font-size:115%;
+  cursor:pointer
 }
 .form [type="submit"]:hover{
   background:linear-gradient(to top, #FF8E00, #ffe100);
