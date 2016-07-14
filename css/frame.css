@@ -9,7 +9,7 @@ body {
 }
 .maxw {
     margin: 1px auto;
-    min-width: 720px;
+    min-width: 240px;/*720px;*/
     max-width: 1500px;
 }
 

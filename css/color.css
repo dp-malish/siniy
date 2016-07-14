@@ -6,12 +6,9 @@ A:visited{color:#520c0e;text-decoration:underline;}
 A:hover{color:#B2251F;text-decoration:blink;}
 
 .fon_c,.fon_ce{
-	/*border:#1c7a05 2px solid;*/
 	border-radius:3px;
 	/*background:#fefee2;*/
 	background:rgba(254,254,226,0.8);
 }
-
-
 
 #foot{background:rgba(254,254,226,0.8);}

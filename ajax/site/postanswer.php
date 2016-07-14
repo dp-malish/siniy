@@ -11,10 +11,4 @@ if(PostRequest::issetPostArr()){
             echo json_encode(['err'=>false,'answer'=>'Спасибо! Ваше сообщение отправлено...']);
         }else{PostRequest::answerErrJson();}
     }
-    if(!empty($_POST['babywords'])){
-        if(DpPost::babywords()){
-            echo json_encode(['err'=>false,'answer'=>'Ваш комментарий добавлен.
-Благодарим за проявленный интерес...']);
-        }else{PostRequest::answerErrJson();}
-    }
 }

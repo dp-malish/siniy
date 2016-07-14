@@ -1,5 +1,5 @@
 <?php
-	
+
 class Captcha{
 
 	const WIDTH = 100;
@@ -12,13 +12,10 @@ class Captcha{
 
 	const DEF_FONT='/font/Rosamunda Two.ttf';
 
-
 	function __construct(){
 		$rnd=rand(10000,99999);
-		if(isset($_COOKIE['mob'])){
-			$this->setCookie($this->dp_md_hash($rnd));
-			$this->genInt($rnd.'');
-		}
+		$this->setCookie($this->dp_md_hash($rnd));
+		$this->genInt($rnd.'');
 	}
 
 	public static function dp_md_hash($hash_val){
