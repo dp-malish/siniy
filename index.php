@@ -79,6 +79,13 @@ spl_autoload_extensions("_class.php");spl_autoload_register();
             <img src="/img/site/png.php?img=vw" alt="фольксваген">
         </div>
         <div class="cl"></div>
+        <h3>Прайс лист:</h3>
+        <div class="fon_c">
+            <br>&nbsp;
+            <a href="/price.xlsx">Скачать прайс</a>
+            <br>&nbsp;
+        </div>
+        <div class="cl"></div>
     </div>
     <div id="m_col" class="rel">
         <div id="r_col" class="fr rel">
