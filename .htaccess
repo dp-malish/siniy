@@ -3,6 +3,8 @@ DirectoryIndex index.php
 RewriteEngine on
 RewriteBase /
 Options +FollowSymlinks
+RewriteCond %{HTTP_HOST} ^www.siniycap.com.ua
+RewriteRule ^(.*)$ http://siniycap.com.ua/$1 [R=301,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*) /?%{QUERY_STRING}

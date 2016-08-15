@@ -7,7 +7,7 @@ spl_autoload_extensions("_class.php");spl_autoload_register();
 
 ?><!doctype html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="author" content="Александр Баранов"><link rel="author" href="https://plus.google.com/105678225473161794317"><meta name="copyright" lang="ru" content="Синий кеп - Siniy cap"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="index,follow"/><link rel="shortcut icon" href="/img/site/ico.png" type="image/png">
+    <meta name="author" content="Александр Баранов"><link rel="author" href="https://plus.google.com/105678225473161794317"><meta name="copyright" lang="ru" content="Синий кеп - Siniy cap"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="index,follow"/><link rel="shortcut icon" href="/img/site/ico.png" type="image/png"><meta name="google-site-verification" content="wbVcs5vBlqJRYWuYpgj6m4YS76U_3OKMxqax695oEZw"><meta name="yandex-verification" content="52739dec60540b8b">
     <meta name="description" content="Магазин автозапчастей Синий кеп. Доставка по всем регионам Украины. В ассортименте автозапчасти различных производителей, новыйе и б.у."><meta name="keywords" content="интернет, магазин, автозапчасти, украина, новыйе, бу">
 <title>Интернет магазин автозапчастей в Украине - новые и б.у - в наличии и под заказ - Синий кеп</title>
     <script async type="text/javascript" src="/js/common.php"></script>
